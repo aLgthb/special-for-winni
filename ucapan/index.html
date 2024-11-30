@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Special for Winni</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="hero-section">
+      <div class="hero-text">
+        <audio id="background-music" loop>
+          <source src="i watch the moon (lofi).mp3" type="audio/mp3" />
+        </audio>
+
+        <!-- Tombol untuk memulai musik -->
+        <button class="background-music" onclick="playMusic()">
+          Play Musik
+        </button>
+        <script>
+          function playMusic() {
+            var music = document.getElementById("background-music");
+            music.play();
+          }
+        </script>
+
+        <h1>Sebuah Cerita untuk Seseorang yang Istimewa</h1>
+        <p>
+          Karena setiap kata punya cerita, dan setiap rasa layak untuk
+          diceritakan.
+        </p>
+        <a href="#story" class="explore-button">Lanjutkan Membaca</a>
+      </div>
+    </div>
+
+    <section id="story" class="story-section">
+      <div class="container">
+        <h2>Cerita Singkat</h2>
+        <p>
+          Pernahkah kamu merasa waktu berhenti hanya karena sebuah senyuman? Aku
+          tidak tahu sejak kapan, tapi setiap kali melihatmu, dunia terasa lebih
+          terang. Dan aku hanya ingin mengatakan sesuatu yang sederhana namun
+          bermakna: "Aku menyukaimu."
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Ungkapan Alvino | Dibuat dengan hati.</p>
+    </footer>
+  </body>
+</html>
